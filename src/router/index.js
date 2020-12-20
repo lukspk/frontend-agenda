@@ -3,12 +3,7 @@ import Router from 'vue-router';
 import store from './../store';
 
 import Main from './../pages/Main';
-import Login from './../pages/Login';
-import Register from './../pages/Register';
-
-import Blank from './../pages/Blank';
-import Dashboard from './../pages/Dashboard';
-import Profile from './../pages/Profile';
+import Contacts from "@/pages/Contacts";
 
 Vue.use(Router);
 
@@ -26,32 +21,8 @@ export default new Router({
         }
       },
       children: [
-        { path: '/blank', component: Blank },
-        { path: 'profile', component: Profile },
-        { path: '/', component: Dashboard }
+        { path: '/', component: Contacts}
       ]
-    },
-    {
-      path: '/login',
-      component: Login,
-      beforeEnter(to, from, next) {
-        if (store.state.token) {
-          next('/');
-        } else {
-          next();
-        }
-      }
-    },
-    {
-      path: '/register',
-      component: Register,
-      beforeEnter(to, from, next) {
-        if (store.state.token) {
-          next('/');
-        } else {
-          next();
-        }
-      }
     }
   ]
 });

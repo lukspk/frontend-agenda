@@ -1,29 +1,29 @@
-# adminlte-3-vue
+# Agenda de Contatos
 
-## Project setup
+###Pré-requisitos
 ```
-yarn install
+Git
+Node
+NPM
 ```
+## Configuração do Projeto
 
-### Compiles and hot-reloads for development
+### Clone do Projeto
 ```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
+git clone https://github.com/lukspk/frontend-agenda.git
 ```
 
-### Run your tests
+### Instalar Dependẽncias
 ```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
+npm install
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Executar Projeto
+```
+npm run dev
+```
+
+### Projeto irá executar
+```
+http://localhost:3000
+```

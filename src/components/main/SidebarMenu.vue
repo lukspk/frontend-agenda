@@ -23,7 +23,7 @@
           />
         </div>
         <div class="info">
-          <router-link to="/profile" class="d-block">Erdi Köse</router-link>
+          <router-link to="/profile" class="d-block">Administrador</router-link>
         </div>
       </div>
 
@@ -40,20 +40,8 @@
 
           <li class="nav-item has-treeview">
             <router-link to="/" class="nav-link">
-              <i class="nav-icon fas fa-th"></i>
-              <p>Dashboard</p>
-            </router-link>
-          </li>
-          <li class="nav-item has-treeview">
-            <router-link to="/profile" class="nav-link">
-              <i class="nav-icon fas fa-th"></i>
-              <p>Profile</p>
-            </router-link>
-          </li>
-          <li class="nav-item has-treeview">
-            <router-link to="/blank" class="nav-link">
-              <i class="nav-icon fas fa-th"></i>
-              <p>Blank Page</p>
+              <i class="nav-icon fas fa-clipboard-list"></i>
+              <p>Contatos</p>
             </router-link>
           </li>
         </ul>
